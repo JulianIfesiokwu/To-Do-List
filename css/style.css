@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merienda One', cursive, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 40%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid#D3D3D3;
+    margin-top: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: 'Merienda One', cursive, sans-serif;
+    margin: 10px 10px 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+h2 {
+    font-size: 90%;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 80%;
+}
+
+#scheduled-tasks {
+    margin: 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+#completed-tasks {
+    margin: 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+
+.uncompleted {
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.completed {
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+
+#lists .list-items {
+    min-height: 100px;
+    margin: 10px;
+}
+
+#compose-item {
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+
+.btn {
+    padding: 1px 2px;
+}
+
+input {
+    min-width: 100%;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+li {
+    border-style: none none dotted none;
+    border-width: 1px;
+}
+
+li p{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.clear-all {
+    margin-bottom: 5px;
+}
+
+.error {
+    display: none;
+    margin-bottom: 5px;
+}
+
+.align {
+    float: right;
+    overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin: 0 auto;
+        width: 90%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border: 1px solid #333333;
+        margin-top: 10px;
+    }
+}
